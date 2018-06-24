@@ -12,11 +12,9 @@
 */
 
 Route::get('/', function () {
-	$collection = Mongo::get()->fruit_farm->fuits;
-	return $collection->find()->toArray();
-	return view('welcome');
+	return view('home');
 });
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::view('/welcome', 'welcome')->name('home');
