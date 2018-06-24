@@ -12,3 +12,6 @@ npm-debug.log
 yarn-error.log
 .env
 .phpintel
+/public/js/app.js
+/public/css/app.css
+package-lock.json
