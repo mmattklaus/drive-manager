@@ -14,3 +14,4 @@ yarn-error.log
 .phpintel
 /public/js/app.js
 /public/css/app.css
+package-lock.json
