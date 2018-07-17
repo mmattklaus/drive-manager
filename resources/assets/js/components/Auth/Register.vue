@@ -14,14 +14,14 @@
 				<div class="inline field">
 					<sui-checkbox label="toggle" toggle v-model="remember"></sui-checkbox>
 				</div>
-				<button class="ui button violet fluid" @click.prevent="login">Login</button>
+				<button class="ui button violet fluid" @click.prevent="login">Register</button>
 			</form>
 		</div>
 	</div>
 </template>
 <script>
 export default {
-	name: 'auth-login',
+	name: 'auth-register',
 	data() {
 		return {
 			username: null,

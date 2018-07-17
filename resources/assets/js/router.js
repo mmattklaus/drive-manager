@@ -5,7 +5,7 @@ Vue.use(VueRouter);
 
 const routes = [
 { path: '/login', component: require('./components/Auth/Login.vue') },
-{ path: '/register', component: require('./components/Auth/Login.vue') }
+{ path: '/register', component: require('./components/Auth/Register.vue') }
 ];
 
 const router = new VueRouter({

@@ -12,9 +12,9 @@
 */
 
 Route::get('/', function () {
-	return view('home');
-});
+	return view('layouts.app');
+})->name('home');
 
 Auth::routes();
 
-Route::view('/welcome', 'welcome')->name('home');
+Route::view('/welcome', 'welcome')->name('welcome');

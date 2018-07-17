@@ -29,9 +29,6 @@
     </div>
 </body>
 <script type="text/javascript">
-    $(function () {
-       // $('.ui.radio.checkbox').checkbox();
-       $('.ui.checkbox').checkbox();
-   });
+    $(function () {});
 </script>
 </html>

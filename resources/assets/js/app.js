@@ -1,6 +1,7 @@
 
 import store from './store'
 import router from './router'
+import SuiVue from 'semantic-ui-vue'
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -11,6 +12,7 @@ import router from './router'
 
  window.Vue = require('vue');
 
+ Vue.use(SuiVue);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
